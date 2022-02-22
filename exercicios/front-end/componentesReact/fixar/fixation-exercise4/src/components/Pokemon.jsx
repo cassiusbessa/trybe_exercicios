@@ -1,7 +1,16 @@
 import React, { Component } from "react";
 
 export default class Pokemon extends Component {
-    render() {
+    
+  // constructor(props) {
+  //   super(props);
+  //   this.changePokemon = this.changePokemon.bind(this);
+  //   this.state = {
+  //       pokedexPosition:0
+  //   }
+  // }  
+  
+  render() {
       const { name, type, averageWeight, image } = this.props.pokemon
     
     return (
