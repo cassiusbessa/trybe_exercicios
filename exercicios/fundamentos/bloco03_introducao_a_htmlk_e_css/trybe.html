@@ -1,22 +1,91 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8"
-    <title>Aprendendo HTML</title>
-</head>
-<body>
-        <h1>Aprendizados</h1>
-        <h2>Meu aprendizado começa aqui e agora!</h2>
-        <p><em>Hoje eu começo minha jornada na Trybe!</em><br>
-        <strong> muito esforço e apoio</strong> eu vou me tornar uma pessoa desenvolvera muito capaz</p>
-        <ol>
-        <li>CSS</li>
-        <li>Posicionamento em CSS</li>
-        <li>HTML Semântico</li>
-        <li>JavaScript</li>
-        <li>DOM</li>
-        <li>FlexBox</li>
-        </ol>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Flamengo-RJ_%28BRA%29.png" alt="Escudo do Mengão" width="300px">
-</body>
+<htm lang="pt-br">
+  <head>
+    <title>Soco a 80km/h: Conheça o Stomatopoda</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header> 
+    <h1>Soco a 80km/h: Conheça o Stomatopoda</h1> 
+    </header>
+    <nav class="externo">
+    <ul>
+        <a href=""><li>Página Inicial</a></li>
+        <a href=""><li>Sobre</li></a> 
+        <a href=""><li>Contato</li></a>
+    </ul>
+    </nav>
+    <nav class="interno">
+        <ul>
+            <li><a href="#information">Informações Gerais</a></li>
+            <li>Agressividade</li>
+            <li>Principal Arma</li>
+            <li>Defesa</li>
+            <li>Cultura Popular</li>
+        </ul>
+
+
+    </nav>
+    <article> 
+        <h2>Fatos sobre o Stomatopoda</h2>
+        <section id="information">
+            <h3>Nome e Família</h3>
+            <ul>
+                <li>Reino: Animalia</li>
+                <li>Filo: Arthropoda</li>
+                <li>Subfilo: Crustacea</li>
+                <li>Classe: Malacostraca</li>
+                <li>Subclasse: Hoplocarida</li>
+                <li>Ordem: Stomatopoda</li>
+            </ul>
+        </section>
+
+        <section class="all_facts">
+            <section id="agressive"><h2>Agressivo!</h2>
+            <p>Stomatopoda são realmente agressivos, podem matar rapidamente uma grande variedades de outras criaturas aquáticas com seus golpes. A potência é tanto que são capazes de até mesmo <strong>quebrar o vidro de um aquário!</strong> Por isso, pense melhor antes de prendê-los!
+            </p>
+            <img src="imagens/camarobrabo.gif" alt="stomatopoda movendo os olhos de forma assustadora" width="200px" height="150px">
+            </section>
+            <section id="punch"><h2>Soco Potente</h2>
+                <p>Sua principal forma de caça é o soco. Ele é capaz de acelerar seu membro a uma velocidade impressionante e golpear com uma <strong>força de aproximadamente 1.500 Newtons</strong>
+                </p>
+                <img src="/imagens/atack.jpeg" alt="animal com cara de brabo" width="200px" height="150px">            
+            </section>
+            <section id="armor"><h2>Armadura do Guerreiro</h2>
+                <p>Não bastasse o soco como forma de ataque, esse animal também conta com uma carapaça protetiva. Tamanha é sua eficácia, que está sendo estudada com o intuito do <strong>desenvolvimento de armaduras modernas</strong> para as tropas dos países 
+                </p>
+                <img src="/imagens/armor.jpg" width="200px" height="150px">
+            </section>
+            <section id="pokemon"><h2>Famoso</h2>
+                <p>Como se já não bastasse sua crueldade, brutalidade e resistência, essa criatura ainda tem seu momento de glória, sendo a inspiração para animações, como o anime Pokémon!
+                </p>
+                <img src="/imagens/crabrawler.jpg" alt="pokemon equivalente ao animal" width="200px" height="150px">
+            </section>
+
+        <aside> <h2>Veja-o em Ação!</h2> 
+
+            <object width="425px" height="350px">
+                <iframe width="425px" height="350px" src="https://www.youtube.com/embed/E0Li1k5hGBE?start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="video com o animal em ação"></iframe>
+            </object>
+        </aside>
+        <section> <h3>Referências Bibliográficas</h3>
+            <h4>Imagens</h4>
+            <ol>
+                <a href="https://thumbs.gfycat.com/OilyUnripeGemsbok-size_restricted.gif"><li>Agressivo</a>
+                </li>  
+                <a href="https://giff.to/cache/0/SoulfulGroundedCottonmouth.jpg"><li>Soco Potente</li></a>              
+                <a href="https://cdn4.vectorstock.com/i/1000x1000/33/18/mantis-shrimp-vintage-vector-19003318.jpg"><li>Armadura</a>
+                </li>
+                <a href="https://images.uncyc.org/pt/4/49/Crabrawler.jpg"><li>Famoso</li></a>       
+            </ol>
+        </section>
+
+        <footer>
+            <p>Conteúdo compilado por <a href="https://cassiusbessa.github.io/">Cássius Queiroz Bessa</a>, estudante Tryber - Turma 19 - Tribo C</p>
+        </footer>
+        </section>
+    </article>
+  </body>
 </html>

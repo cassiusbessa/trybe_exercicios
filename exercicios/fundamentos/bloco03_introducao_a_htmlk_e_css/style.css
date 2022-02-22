@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+    background-color: darkgreen;
+}
+
+header h1 {
+    text-align: center;
+    color: darkgray;
+}
+
+#information ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+article{
+    background-image:linear-gradient(45deg, rgb(9, 2, 116), rgb(1, 58, 65));
+    text-align: center;
+    color: darkgray;
+    width: 50%;
+    margin: auto;
+}
+header,nav {
+    background-color: darkgreen;
+    margin: 0px;
+
+}
+
+.externo ul{
+    margin: 0px;
+}
+header h1{
+    margin: 0px;
+}
+
+.interno {
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    margin-top: 4px;
+}
+
+.interno ul {
+text-align: center;
+background-color: darkslategray;
+
+}
+
+.interno ul li {
+    padding: 50px;
+}
+
+img {
+    display: inline;
+}
